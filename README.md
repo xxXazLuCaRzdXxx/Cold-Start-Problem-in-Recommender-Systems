@@ -27,6 +27,7 @@ While this notebook provides a solution to the cold-start problem, there are sev
 - **Full Meta-Learning Implementation**: The current approach uses a simple neural network to predict ratings, but a more sophisticated meta-learning algorithm (like MAML or Few-Shot Learning) could improve the adaptability of the model to new users.
 - **Task-based Learning**: Implementing a model that learns from multiple user-specific tasks could lead to better generalization for new users with minimal data.
 - **Integrating Other Techniques**: Exploring hybrid models that combine collaborative filtering with content-based features could also help in solving the cold-start problem more effectively.
+- **Fair Comparison between models.**
 
 ## Requirements
 - **Libraries**: This project uses Python libraries such as `pandas`, `numpy`, `tensorflow`, `scikit-learn`, and `surprise`. These can be installed using pip:
