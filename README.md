@@ -12,7 +12,7 @@ The cold-start problem arises when a recommender system struggles to make accura
 1. **SVD-based Collaborative Filtering**:
    - I used **SVD** (Singular Value Decomposition) from the `Surprise` library to predict ratings for new users, leveraging their limited ratings and item interactions.
    
-2. **Meta-Learning for Cold-Start**:
+2. **Neural Network for Cold-Start**:
    - The dataset was split into known and unknown ratings for users, with the idea that the model could learn from the known ratings and predict the unknown ones.
    - A basic neural network model was used to predict ratings based on the known ratings, with **padding** applied to make the sequences uniform in length.
 
